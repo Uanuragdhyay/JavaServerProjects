@@ -66,6 +66,8 @@ This server handles **multiple clients concurrently** using threads. It is ideal
 
 ---
 
+```
+
 ## 💡 Use Case
 
 * Learning socket programming in Java
@@ -77,4 +79,3 @@ This server handles **multiple clients concurrently** using threads. It is ideal
 ## **💌 Contact & Support**
 📧 Email: [uanurag@gmail.com](mailto:uanurag@gmail.com)  
 📌 GitHub: [GitHub Profile](https://github.com/Uanuragdhyay)
-```
