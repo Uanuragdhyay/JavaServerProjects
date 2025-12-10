@@ -67,7 +67,7 @@ This server handles **multiple clients concurrently** using threads. It is ideal
 ---
 
 ```
-
+---
 
 ## 💡 Use Case
 
