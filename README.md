@@ -5,7 +5,7 @@ This repository showcases two TCP server implementations in Java, designed for l
 - 🚦 **Single-Threaded Server**
 - ⚡ **Multi-Threaded Server**
 
-Each implementation is in its own directory and demonstrates different approaches to handling client connections.
+Each implementation is placed in its own directory and demonstrates different approaches to handling client connections.
 
 ---
 
@@ -16,67 +16,64 @@ JavaServerProjects/
 ├── SingleThreadedServer/
 ├── MultiThreadedServer/
 └── README.md
-
-````
+```
 
 ---
 
 ## 🚦 Single-Threaded Server
 
-This is a basic TCP server that handles **one client at a time**. It is useful for understanding Java networking and blocking I/O.
+A basic TCP server that handles **one client at a time**.  
+Ideal for understanding Java networking fundamentals and blocking I/O.
 
-### 🔹 Features:
-- Accepts one connection at a time
-- Uses `ServerSocket` and basic I/O streams
-- Simple and easy to understand
+### 🔹 Features
+- Accepts one connection at a time  
+- Uses `ServerSocket` and standard I/O streams  
+- Very simple and beginner-friendly  
 
 ---
 
 ## ⚡ Multi-Threaded Server
 
-This server handles **multiple clients concurrently** using threads. It is ideal for building more responsive applications.
+A more advanced TCP server that handles **multiple clients concurrently** using threads.
 
-### 🔹 Features:
-- Each client is handled in its own thread
-- Better scalability for concurrent connections
-- Demonstrates use of Java threading with sockets
+### 🔹 Features
+- Each client is handled in its own thread  
+- Scales better for real-world use cases  
+- Demonstrates Java threading & socket handling  
 
 ---
 
 ## 🧪 How to Run
 
-1. Open a terminal and navigate to the desired server directory:
-   ```bash
-   cd SingleThreadedServer   # or MultiThreadedServer
-````
-
-2. Compile the Java files:
-
-   ```bash
-   javac -d bin src/*.java
-   ```
-
-3. Run the server:
-
-   ```bash
-   java -cp bin MainClassName
-   ```
-
-   > Replace `MainClassName` with your actual main class name (e.g., `Server` or `Main`).
-
----
-
+### 1️⃣ Navigate to your desired server folder  
+```bash
+cd SingleThreadedServer   # or MultiThreadedServer
 ```
+
+### 2️⃣ Compile the Java files  
+```bash
+javac -d bin src/*.java
+```
+
+### 3️⃣ Run the server  
+```bash
+java -cp bin MainClassName
+```
+
+> Replace `MainClassName` with the actual main class (e.g., `Server`, `Main`, etc.)
+
 ---
 
 ## 💡 Use Case
 
-* Learning socket programming in Java
-* Comparing blocking vs. concurrent server performance
-* Building custom lightweight servers
+- Learning socket programming in Java  
+- Comparing blocking vs. concurrent server performance  
+- Building custom lightweight servers  
+- Understanding differences between single-thread and multi-thread models  
 
 ---
 
-## **💌 Contact & Support**
-📧 Email: [uanurag@gmail.com](mailto:uanurag@gmail.com)  
-📌 GitHub: [GitHub Profile](https://github.com/Uanuragdhyay)
+## 💌 Contact & Support
+
+📧 **Email:** uanurag@gmail.com  
+📌 **GitHub:** https://github.com/Uanuragdhyay
