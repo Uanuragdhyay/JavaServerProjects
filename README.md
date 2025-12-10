@@ -74,16 +74,4 @@ This server handles **multiple clients concurrently** using threads. It is ideal
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. If you have improvements or new ideas (e.g., non-blocking or async server), feel free to fork and contribute!
-
----
-
-
-Just update:
-- `MainClassName` as per your actual file,
-- and replace **[Your Name]** and **[@YourGitHubUsername]** with your details.
-
-Want help creating a professional `LICENSE` file (MIT or another)?
 ```
